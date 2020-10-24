@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="pr.dtd" type="application/xml-dtd"?>
+
+<pr>
+    <header>
+        <keyname>TP2</keyname>
+        <title>
+            Project Record (dtd)
+        </title>
+        <begindate>
+            19/10/2020
+        </begindate>
+        <enddate>
+            20/10/2020
+        </enddate>
+        <supervisor href="http://www4.di.uminho.pt/~jcr/">
+            JRC
+        </supervisor>
+    </header>
+    <workteam>
+        <user>
+            <name>
+                Nuno Cunha
+            </name>
+            <number>
+                A85400
+            </number>
+            <email href="mailto: a85400@alunos.uminho.pt">
+                a85400@alunos.uminho.pt
+            </email>
+        </user>
+    </workteam>
+    <abstract>
+        O foco deste trabalho foi definir um ficheiro <italic>.dtd</italic> de modo a poder usar o mesmo para realizar os project records de trabalhos subsequentes.
+        O modelo de base seguido foi o do seguinte <link href="http://www4.di.uminho.pt/~jcr/PROJS/micei2002/guilherme/Project%20Record.htm">Project Record</link>
+        .
+    </abstract>
+    <deliverables>
+        <file href="pr.dtd">Project Record (DTD)</file>
+    </deliverables>
+</pr>
