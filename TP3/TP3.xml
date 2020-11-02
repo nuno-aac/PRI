@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pr>
+    <header>
+        <keyname>TP3</keyname>
+        <title>
+            XSLT Website Generation
+        </title>
+        <begindate>
+            27/10/2020
+        </begindate>
+        <enddate>
+            27/10/2020
+        </enddate>
+        <supervisor href="http://www4.di.uminho.pt/~jcr/">
+            JRC
+        </supervisor>
+    </header>
+    <workteam>
+        <user>
+            <name>
+                Nuno Cunha
+            </name>
+            <number>
+                A85400
+            </number>
+            <email href="mailto: a85400@alunos.uminho.pt">
+                a85400@alunos.uminho.pt
+            </email>
+        </user>
+    </workteam>
+    <abstract>
+        O foco deste trabalho foi definir um ficheiro
+        <italic> .xslt </italic>
+        de modo a poder gerar todo um website apartir de um dataset relativo aos arqueosítios portugueses.
+        Foi ainda adicionado algum CSS para decorar o website.
+    </abstract>
+    <deliverables>
+        <file href="arqueositios.dtd">Arqueosítios (DTD)</file>
+        <file href="tabsite.index">Website</file>
+        <file href="arqueositios.xsl">XSL file</file>
+    </deliverables>
+</pr>

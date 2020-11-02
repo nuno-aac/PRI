@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.Content{
+    display: grid;
+    place-items: center;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("../resources/montanha2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Index{
+    display: grid;
+    place-items: center;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("../resources/montanha2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.List{
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
