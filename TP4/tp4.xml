@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PR SYSTEM "PR.dtd">
+<PR>
+    <meta>
+        <key>TP4</key>
+        <title>Node.js HTTP server</title>
+        <bdate>4/11/2020</bdate>
+        <edate>7/11/2020</edate>
+        <supervisor>JCR</supervisor>
+    </meta>
+    <workteam>
+        <worker num="A85400">
+            <name>Nuno Cunha</name>
+            <email>a85400@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este trabalho prático foi desenvolvido com o objectivo de produzir um servidor em Node.js capaz de distribuir uma pagina web sobre o dataset dos arqueositios. 
+            O servidor desenvolvido é capaz de mostrar as paginas html necessarias bem como lidar com urls impróprias e ficheiros inexistentes. O servidor é ainda capaz de lidar com requests sobre ficheiros comuns como css ou jpeg.
+        </p>
+    </abstract>
+    <deliverables>
+        <link url="server.js">Servidor Node.js</link>
+        <link url="fileAccess.js">Modulo auxiliar de tratamento de url</link>
+        <link url="arqueositios.xsl">Ficheiro de XSLT com tranformação para HTML</link>
+    </deliverables>
+</PR>
