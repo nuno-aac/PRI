@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PR>
+    <meta>
+        <key>TP5</key>
+        <title>API access</title>
+        <bdate>9/11/2020</bdate>
+        <edate>9/11/2020</edate>
+        <supervisor>JCR</supervisor>
+    </meta>
+    <workteam>
+        <worker num="A85400">
+            <name>Nuno Cunha</name>
+            <email>a85400@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este trabalho prático foi desenvolvido com o objectivo de produzir
+            um servidor em Node.js que através de um acesso a uma api a correr no JSON server desse acesso a uma pagina web relativa à mesma
+        </p>
+    </abstract>
+    <deliverables>
+        <link url="escola.js">Servidor Node.js</link>
+        <link url="db.json">DB usada para o JSONserver</link>
+    </deliverables>
+</PR>
