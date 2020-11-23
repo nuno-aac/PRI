@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PR>
+    <meta>
+        <key>TP6</key>
+        <title>HTML Forms</title>
+        <bdate>20/11/2020</bdate>
+        <edate>20/11/2020</edate>
+        <supervisor>JCR</supervisor>
+    </meta>
+    <workteam>
+        <worker num="A85400">
+            <name>Nuno Cunha</name>
+            <email>a85400@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este trabalho prático foi desenvolvido com o objectivo de produzir uma lista de tarefas segundo parametros delineados nas aulas. 
+            As tarefas o o seu status são aramazenadas no json server e foi desenvolvido um webserver que gera o frontend e  usando forms comunica com os dados
+        </p>
+    </abstract>
+    <deliverables>
+        <link url="tasks_server.js">Servidor Node.js</link>
+        <link url="db.json">DB usada para o JSONserver</link>
+        <link url="static.js">Modulo de gestão de recursos estáticos</link>
+        <link url="public/">Recursos estáticos</link>
+    </deliverables>
+</PR>

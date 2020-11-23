@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    {
+      "tarefa": "Verrer",
+      "responsavel": "Helena",
+      "data_limite": "10-10-2020",
+      "terminado": true,
+      "cancelado": false,
+      "id": 0
+    },
+    {
+      "tarefa": "Varrer",
+      "responsavel": "Lima",
+      "data_limite": "31-31-31",
+      "terminado": false,
+      "cancelado": true,
+      "id": 1
+    },
+    {
+      "tarefa": "Fazer",
+      "responsavel": "Ru",
+      "data_limite": "12-10-2020",
+      "terminado": true,
+      "cancelado": false,
+      "id": 2
+    },
+    {
+      "tarefa": "Arrumar muito",
+      "responsavel": "Eu",
+      "data_limite": "31-12-2020",
+      "terminado": true,
+      "cancelado": false,
+      "id": 3
+    },
+    {
+      "tarefa": "Brincar",
+      "responsavel": "Ru",
+      "data_limite": "12-10-2020",
+      "terminado": false,
+      "cancelado": false,
+      "id": 4
+    }
+  ]
+}
