@@ -1,0 +1,23 @@
+extends layout
+
+block content
+    .w3-card-4
+        header.w3-container.w3-light-green 
+            h2.w3-center= aluno.Número
+        .w3-container.w3-pale-green
+            h1.w3-center #{aluno.Nome}
+            h3.w3-center Github: 
+                a(href= aluno.Git) #{aluno.Git}
+            .w3-container.w3-padding-16
+                table.w3-table-all
+                    each val in [1, 2, 3, 4, 5, 6, 7, 8]
+                        th.w3-center TPC #{val}
+                    
+                    tr
+                        each val in [1, 2, 3, 4, 5, 6, 7, 8]
+                            if aluno.tpc[val-1] == 1
+                                td.w3-center Done!
+                            else
+                                td.w3-center.w3-text-red Missing!
+        footer.w3-container.w3-light-green.w3-padding-16.w3-center
+            adress Gerado por Nuno Cunha | PRI2020 with 💚

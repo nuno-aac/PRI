@@ -1,0 +1,28 @@
+extends layout
+
+block content
+    .w3-card-4
+        header.w3-container.w3-light-green.w3-border
+            h2.w3-center Novo Aluno
+        form.w3-container.w3-pale-green(action='/alunos' method='POST')
+            label.w3-text-black
+                b Número
+            input.w3-input.w3-border(type='text' name='numero')
+            label.w3-text-black
+                b Nome
+            input.w3-input.w3-border(type='text' name='nome')
+            label.w3-text-black
+                b Github
+            input.w3-input.w3-border(type='text' name='git')
+            .w3-padding-32
+                table.w3-table-all.w3-padding-32
+                    each val in [1, 2, 3, 4, 5, 6, 7, 8]
+                        th.w3-center TPC #{val}
+                    tr
+                        each val in [0,1, 2, 3, 4, 5, 6, 7]
+                            td
+                                input.w3-input.w3-border(type='checkbox' name=`tpc${val}` id=`tpc${val}`)
+            input.w3-btn.w3-light-green.w3-border.w3-margin(type='submit' value='Registar')
+            input.w3-btn.w3-light-green.w3-border.w3-margin(type='reset' value='Limpar valores')
+        footer.w3-container.w3-light-green.w3-padding-16.w3-center
+            adress Gerado por Nuno Cunha | PRI2020 with 💚
