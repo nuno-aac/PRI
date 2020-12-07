@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PR>
+    <meta>
+        <key>TP7</key>
+        <title>Express and MongoDB</title>
+        <bdate>27/11/2020</bdate>
+        <edate>29/11/2020</edate>
+        <supervisor>JCR</supervisor>
+    </meta>
+    <workteam>
+        <worker num="A85400">
+            <name>Nuno Cunha</name>
+            <email>a85400@alunos.uminho.pt</email>
+        </worker>
+    </workteam>
+    <abstract>
+        <p>
+            Este trabalho prático foi desenvolvido com o objectivo de produzir um servidor relaativo aos trabalhos realizados pela turma PRI2020, para este fim usando as tecnologias ExpressJS e mongoDB
+            Os alunos e os seus TPC sao armazenados em mongoDB e foi desenvolvido um webserver em Express que gera o frontend usando templates pug.
+        </p>
+    </abstract>
+    <deliverables>
+        <link url="app.js">Servidor Node.js</link>
+        <link url="routes/index.js">Rotas</link>
+        <link url="views/aluno.pug">View aluno</link>
+        <link url="views/alunos.pug">View alunos</link>
+        <link url="views/editar.pug">View editar</link>
+        <link url="views/error.pug">View error</link>
+        <link url="views/index.pug">View index</link>
+        <link url="views/layout.pug">View layout</link>
+        <link url="views/registo.pug">View registo</link>
+        <link url="views/sucesso.pug">View sucesso</link>
+        <link url="public/">Recursos estáticos</link>
+    </deliverables>
+</PR>
